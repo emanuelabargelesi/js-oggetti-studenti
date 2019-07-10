@@ -20,9 +20,9 @@ for (x in studente) {
   stampa += studente[x] + " ";
 }
 document.getElementById('stampa').innerHTML = stampa;
-
-//Crea array di oggetti studenti
-// primo metodo
+//
+// //Crea array di oggetti studenti
+// // primo metodo
 studenti = {
   'nome': ['Emanuela', 'Alessandro', 'Fabio'],
   'cognome': ['Bargelesi', 'Piras', 'Veronese'],
@@ -63,5 +63,5 @@ document.write(studenti.nome + '<br />' + studenti.cognome);
 // domandanome = prompt('inserisci il tuo nome');
 // domandacognome = prompt('inserisci il tuo cognome');
 // domandaeta = parseInt(prompt('inserisci la tua età'));
-// studenti.push(domandanome + domandacognome + domandaeta);
-// console.log(studenti);
+// studenti.push([domandanome, + domandacognome, + domandaeta]);
+// document.write(studenti);
